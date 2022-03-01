@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local, postgres #, mysql, h2
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/sqli
+          jwk-set-uri: http://localhost:8080/auth/realms/sqli/protocol/openid-connect/certs

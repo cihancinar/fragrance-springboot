@@ -1,0 +1,84 @@
+{15 items
+"categoryId":"cat150006"
+"childCategories":[14 items
+0:{7 items
+"categoryId":"cat1230034"
+"content":{7 items
+"region1":[...]1 item
+"seoCanonicalUrl":"/shop/moisturizing-cream-oils-mists"
+"seoKeywords":[]0 items
+"seoMetaDescription":"Shop moisturizers at Sephora. Keep your skin hydrated with top-rated lotions, creams, face oils, mists, BB & CC creams."
+"seoName":"moisturizing-cream-oils-mists"
+"seoTitle":"Moisturizers | Sephora"
+"targetUrl":"/shop/moisturizing-cream-oils-mists"
+}
+"displayName":"Moisturizers"
+"hasChildCategories":true
+"hasDropdownMenu":true
+"megaNavColumn":1
+"targetUrl":"/shop/moisturizing-cream-oils-mists"
+}
+1:{...}7 items
+2:{7 items
+"categoryId":"cat1230035"
+"content":{...}6 items
+"displayName":"Treatments"
+"hasChildCategories":true
+"hasDropdownMenu":true
+"megaNavColumn":2
+"targetUrl":"/shop/facial-treatments"
+}
+3:{...}7 items
+4:{7 items
+"categoryId":"cat1600040"
+"content":{7 items
+"region1":[...]1 item
+"seoCanonicalUrl":"/shop/eye-treatment-dark-circle-treatment"
+"seoKeywords":[]0 items
+"seoMetaDescription":"Shop eye treatments at Sephora. Treat dark circles, puffiness and signs of aging with our selection of eye treatments from leading skin care brands."
+"seoName":"eye-treatment-dark-circle-treatment"
+"seoTitle":"Eye Treatment & Dark Circle Treatment | Sephora"
+"targetUrl":"/shop/eye-treatment-dark-circle-treatment"
+}
+"displayName":"Eye Care"
+"hasChildCategories":true
+"hasDropdownMenu":true
+"megaNavColumn":2
+"targetUrl":"/shop/eye-treatment-dark-circle-treatment"
+}
+5:{...}7 items
+6:{...}7 items
+7:{...}7 items
+8:{...}7 items
+9:{...}7 items
+10:{...}7 items
+11:{...}7 items
+12:{...}7 items
+13:{...}7 items
+]
+"content":{9 items
+"bestsellersTargetURL":"/best-selling-skin-care"
+"justArrivedTargetURL":"/new-skin-care-products"
+"region3":[...]2 items
+"seoCanonicalUrl":"/shop/skincare"
+"seoKeywords":[]0 items
+"seoMetaDescription":"Shop skincare products at Sephora. Find top-rated products from leading skincare brands to help target specific skin concerns and revitalize your look."
+"seoName":"skincare"
+"seoTitle":"Skincare Products | Sephora"
+"targetUrl":"/shop/skincare"
+}
+"displayName":"Skincare"
+"enableNoindexMetaTag":false
+"hasChildCategories":true
+"hasDropdownMenu":true
+"megaNavMarketingBanner":[1 item
+0:{...}10 items
+]
+"seoCanonicalUrl":"/shop/skincare"
+"seoKeywords":[]0 items
+"seoMetaDescription":"Shop skincare products at Sephora. Find top-rated products from leading skincare brands to help target specific skin concerns and revitalize your look."
+"seoName":"skincare"
+"seoTitle":"Skincare Products | Sephora"
+"targetUrl":"/shop/skincare"
+"template":0
+}
