@@ -1,0 +1,53 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:8.0.28
+    container_name: mysql
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+    volumes:
+      - db-data-mysql:/var/lib/mysql
+  db2:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - 5432:5432
+    volumes:
+      - db-data-postgresql:/var/lib/postgresql/data/
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    restart: always
+    depends_on:
+      - db
+      - db2
+    ports:
+      - 7777:8080
+  keycloak:
+    image: quay.io/keycloak/keycloak:legacy
+    container_name: keycloak
+    restart: always
+    environment:
+      DB_VENDOR: postgres #mysql
+      DB_ADDR: db2
+      DB_DATABASE: keycloak
+      DB_USER: root
+      DB_PASSWORD: root
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+    ports:
+      - 8080:8080
+    depends_on:
+      - db2
+
+volumes:
+  db-data-mysql:
+  db-data-postgresql:
